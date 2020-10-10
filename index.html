@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sass Tutorial</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" class="brand ml-10"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-us">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact-us">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#social-media">Follow Us</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+
+    <!--Banner Section Start-->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2 class="promo-title">Welcome to <br />React With Wordpress</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, mollitia.</p>
+                    <a href="#" data-toggle="modal" data-target="#exampleModal" class="play-icon"><img src="img/play.png" /> Watch Tutorials</a>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <img src="img/banner.png" class="img-responsive animate shade p-40">
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,154.7C384,160,480,224,576,218.7C672,213,768,139,864,128C960,117,1056,171,1152,197.3C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+          </svg>
+    </section>
+    
+    <!-- Services -->
+    <section id="services">
+        <div class="container text-center">
+            <h3 class="heading">What We Do ?</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="img/berries.png" class="services-icon"/>
+                    <h5>Barries for You</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, labore?</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/rice.png" class="services-icon"/>
+                    <h5>Rice for You</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, labore?</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/cola.png" class="services-icon"/>
+                    <h5>Cola for You</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, labore?</p>
+                </div>
+            </div>
+            <a href="#" class="button mt-40"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> All Services</a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="about-us">
+        <div class="container">
+            <h3 class="heading text-center">Why Choose Us ?</h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="about-title">Why we're different</h4>
+                    <ul>
+                        <li>Understand our client business goal first</li>
+                        <li>Believe in doing business with honesty</li>
+                        <li>We deliver on time</li>
+                        <li>We create a winning content strategy</li>
+                        <li>We protect your online reputation</li>
+                        <li>Believe in doing business with honesty</li>
+                        <li>We deliver on time</li>
+                        <li>We create a winning content strategy</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/about.png" class="img-responsive animate"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="testimonial">
+        <div class="container">
+            <h3 class="heading text-center">What Clients Says ?</h3>
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="testimonial-caousel">
+                        <li>
+                            <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus temporibus eaque excepturi voluptatem quisquam eveniet dolor ipsa quia similique voluptatibus?</q></p>
+                            <img src="img/client-01.png" class="img-responsive" />
+                            <span class="info">
+                                <h5>Ragy Thomas</h5>
+                                <small>CEO Fouder</small>
+                            </span>
+                        </li>
+                        <li>
+                            <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus temporibus eaque excepturi voluptatem quisquam eveniet dolor ipsa quia similique voluptatibus?</q></p>
+                            <img src="img/client-02.png" class="img-responsive" />
+                            <span class="info">
+                                <h5>Chandan Kumar</h5>
+                                <small>Fronend Developer</small>
+                            </span>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact-us">
+        <div class="container">
+            <h3 class="heading text-center">Get Quote ?</h3>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="img/ContactUs.png" class="img-responsive"/>
+                </div>
+                <div class="col-sm-9">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Enter Your Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">Enter Your Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress2">Address 2</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>Jharkhand</option>
+                              <option>Bihar</option>
+                              <option>West Bangal</option>
+                              <option>Maharastra</option>
+                              <option>Delhi</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              I agree <a href="#" class="terms" target="_blank">terms & policy</a>
+                            </label>
+                          </div>
+                        </div>
+                        <button type="submit" class="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit</button>
+                      </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media -->
+    <section id="social-media">
+        <div class="container">
+            <h3 class="heading text-center">Follow Us On ?</h3>
+            <div class="row">
+                <ul class="icons">
+                    <li>
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="img/facebook.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://whatsapp.com" target="_blank">
+                            <img src="img/whatsapp.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com" target="_blank">
+                            <img src="img/linkedin.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank">
+                            <img src="img/instagram.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://snapchat.com" target="_blank">
+                            <img src="img/snapchat.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank">
+                            <img src="img/twitter.png" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1" d="M0,224L80,229.3C160,235,320,245,480,213.3C640,181,800,107,960,101.3C1120,96,1280,160,1360,192L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+          </svg>
+          <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="img/logo.png" class="footer-logo"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ut iusto iure velit soluta esse?</p>
+                    <a href="#about-us" class="link">Read More</a>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Contact Us</h5>
+                    <ul class="contacts">
+                        <li><a href="mailto:Chandan.react@gmail.com"><i class="fa fa-envelope-o"></i> Chandan.react@gmail.com</a></li>
+                        <li><a href="tel:+91 970-971-3232"><i class="fa fa-phone"></i> +91 970-971-3232</a></li>
+                        <li><a href="" target="_blank"><i class="fa fa-address-book-o"></i> Tiranga Chowk, Jharkhand India</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Subscribe Newslatter</h5>
+                    <form class="subscription">
+                        <input type="text" class="form-control" placeholder="Your Email" />
+                        <input type="submit" class="button" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="copyright">
+        <div class="container">
+            <div class="row">
+                <p class="designedby">Designed & Developed by <a href="https://github.com/chandankumar97097" target="_blank">ReactDevCk</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <iframe width="100%" height="450" src="https://www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="button" data-dismiss="modal">
+                    Close <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
